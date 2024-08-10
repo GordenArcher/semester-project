@@ -1,0 +1,538 @@
+.about_container, .about_page, .vision_mission_container, 
+.vission_mission, .viss_miss_image, .what_wedo,.we_do, 
+.head_left, .head_right, .what_we_do_row, .what_grid, 
+.roww, .academy_program, .prog_header, .prog_left, .prog_right,
+.program__, .program__ .number, .program__ .program_header,
+.program__ .program_desc, .program__ .program_img, .program_img .icon,
+.icon_element, .coaches_person, .coaches__, .personss, .coach_left, 
+.coach_right, .coaches_person, .coach_grid, .history, .history_wrapper,
+.history_container, .history_row, .history_column, .history_year, 
+.history_head, .history_desc, .history_image, .footer, .footer_socials{
+    width: 100%;
+    height: 100%;
+}
+
+.about_header{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background: url('../images/image12.avif');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about_view{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.about_view .about_head{
+    font-size: 2.3rem;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.about_view .about_link_view{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #ffffffc0;
+}
+
+.vision_mission_container, .socials{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.viss_miss_image{
+    position: relative;
+}
+
+.viss_miss_image img{
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+}
+
+.vission_mission{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.connt{
+    width: 80%;
+    height: 100%;
+    padding: 30px 20px;
+    border: 1px solid hsla(240, 100%, 50%, 0.114);
+    border-radius: 10px;
+    margin-top: 50px;
+    transition: all .3s ease;
+}
+
+.connt:hover{
+    box-shadow: 0 2px 3px #ccc;
+}
+
+.connt h3{
+    font-size: 2rem;
+    text-align: center;
+    padding: 20px;
+    font-family: cursive;
+    color: hsla(240, 100%, 50%);
+}
+
+.connt p{
+    text-align: center;
+    line-height: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.we_do{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.what_we_head{
+    max-width: 1140px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.head_left, .prog_left, .coach_left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.head_left .dot, .prog_left .dot, .coach_left .dot{
+    width: 20px;
+    height: 20px;
+    background: blue;
+    border-radius: 50%;
+    position: relative;
+}
+
+.head_left .dot_text, .prog_left .left_text, .coach_left .dot_text{
+    font-size: 1rem;
+    color: hsla(240, 100%, 50%);
+}
+
+.head_right h2, .prog_right h2, .coach_right h2 {
+    font-size: 2.2rem;
+    color: hsla(240, 100%, 50%);
+}
+
+.top{
+    margin: 20px;
+}
+
+.what_grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.roww, .coach_row, .social_link{
+    border: 1px solid hsla(240, 100%, 50%, 0.114);
+    border-radius: 7px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    transition: all .3s ease;
+}
+
+.roww:hover{
+    transform: translateY(-6px);
+}
+
+.roww .roww_image{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.roww_image img{
+    width: 50px;
+    height: 50px;
+}
+
+.roww .roww_head{
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+    color: hsla(240, 100%, 50%);
+}
+
+.roww .roww_desc{
+    font-size: 1rem;
+}
+
+.academy_program, .coaches__, .history_row, .footer_container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px;
+}
+
+.prog_header, .coaching_head{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.program__{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.number{
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: hsla(240, 100%, 50%);
+}
+
+.program_header h1, .element_head h2{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: hsla(240, 100%, 50%, 0.656);
+}
+
+.element_descc, .descritp{
+    font-size: .9rem;
+    font-weight: 100;
+}
+
+.element_descc, .icon_element{
+    position: relative;
+    padding: 10px;
+}
+
+.icon_element, .history_header{
+    text-align: center;
+}
+
+.icon_element img{
+    width: 40px;
+    height: 40px;
+    transition: all .3s ease;
+}
+
+.icon_element img:hover{
+    width: 30px;
+    height: 30px;
+}
+
+.personss{
+    margin-top: 20px;
+}
+
+.coach_grid{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+    margin: 10px;
+}
+
+.coach_row{
+    padding: 5px;
+    border: 1px solid hsla(240, 100%, 50%, 0);
+    transition: all .5s ease;
+}
+
+.coach_row:hover{
+    border: 1px solid hsla(240, 100%, 50%, 0.304);
+    box-shadow: 0 0 3px #ccc;
+}
+
+.coach_row .coach_image{
+    width: 100%;
+    height: 300px;
+}
+
+.coach_row .coach_image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.coach_row{
+    align-items: start;
+}
+
+.coach_desc{
+    margin-top: 10px;
+}
+
+.person_info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.coach_name{
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: hsla(240, 100%, 50%);
+}
+
+.coach_work{
+    font-size: 1rem;
+}
+
+.history, footer{
+    margin-top: 50px;
+}
+
+.history_column{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.history_header{
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: hsla(240, 100%, 50%);
+}
+
+.history_year .year{
+    font-size: 1.4rem;
+    color: hsla(240, 100%, 50%);
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.history_year .line{
+    width: 2px;
+    height: 250px;
+    background: #ccc;
+    margin-left: 20px;
+}
+
+.element_image{
+    width: 400px;
+    height: 300px;
+}
+
+.element_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.footer{
+    background: hsla(240, 100%, 50%);
+}
+
+.footer_top{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.footer_top_text{
+    padding-left: 20px;
+    font-size: 1rem;
+    color: rgb(252, 252, 253);
+}
+
+.social_link{
+    width: 100%;
+    border: 1px solid hsla(0, 0%, 100%);
+}
+
+.social_link:hover{
+    transform: translateY(-6px);
+}
+
+.social_link a{
+    text-decoration: none;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.socials{
+    gap: 20px;
+}
+
+.icon{
+
+    position: relative;
+}
+
+.icon .bi{
+    font-size: 1.5rem;
+    color: rgb(251, 251, 252);
+}
+
+.media_name{
+    color: #cccc;
+}
+
+@media screen and (max-width:924px) {
+
+    .vision_mission_container{
+        flex-direction: column;
+    }
+
+    .what_we_head, .coaching_head, .history_column, .prog_header,  .program__{
+        display: flex;
+        /* flex-direction: column; */
+    }
+
+    .dot_text span, .dot_text h4, .left_text h4{
+        font-size: 1.1rem;
+    }
+
+    .head_right h2, .coach_right h2, .right_text h2{
+        font-size: 1.7rem;
+    }
+
+    .what_grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .coach_grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .we_do, .academy_program, .coaches__, .history_row{
+        padding: 10px;
+    }
+
+    .program_img{
+        display: none;
+    }
+
+    .socials{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+@media screen and (max-width:768px) {
+
+    .vision_mission_container, .program__{
+        flex-direction: column;
+    }
+
+    .what_we_head, .coaching_head, .history_column, .prog_header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dot_text span, .dot_text h4, .left_text h4{
+        font-size: .8rem;
+    }
+
+    .head_right h2, .coach_right h2, .right_text h2{
+        font-size: 1.5rem;
+    }
+
+    .what_grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .coach_grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .we_do, .academy_program, .coaches__, .history_row{
+        padding: 10px;
+    }
+
+    .element_image{
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .program_img{
+        display: none;
+    }
+
+    .socials{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width:472px) {
+
+    .vision_mission_container, .program__{
+        flex-direction: column;
+    }
+
+    .what_we_head, .coaching_head, .history_column, .prog_header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dot_text span, .dot_text h4, .left_text h4{
+        font-size: .7rem;
+    }
+
+    .head_right h2, .coach_right h2, .right_text h2{
+        font-size: 1.3rem;
+    }
+
+    .what_grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .coach_grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .element_image{
+        width: 100%;
+        height: 100%;
+    }
+
+    .we_do, .academy_program, .coaches__, .history_row{
+        padding: 5px;
+    }
+
+    .program_img{
+        display: none;
+    }
+
+    .socials{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

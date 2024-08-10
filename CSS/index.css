@@ -5,23 +5,37 @@
     /* background-color: black; */
 }
 
-.__root, .app, ._root_app_, .header, .header nav, .header nav .nav_bar{
+.__root, .app, ._root_app_, .header nav .nav_bar, .home_, .sports_played, .sports, .sports_container,.row{
     width: 100%;
     height: 100%;
     position: relative;
 }
 
 .header{
-    position: static;
+    width: 100%;
+    z-index: 99;
+}
+
+.home__ img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header{
+    position: absolute;
+    top: 0;
     /* box-shadow: 1px 1px 1px 1px #00000084; */
+    /* z-index: 99; */
 }
 
 .header nav .nav_bar{
     display: flex;
-    padding: 30px 20px;
+    padding: 20px;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+    /* background: #00000084; */
 }
 
 .header .nav_logo, .header .links{
@@ -43,7 +57,7 @@
 
 .header .links ul li{
     text-decoration: none;
-    color: blue;
+    color: black;
     font-size: 1.3rem;
     padding: 10px;
     border-radius: 3px;
@@ -53,7 +67,7 @@
 
 .header .links ul li a{
     text-decoration: none;
-    color: blue;
+    color: #fff;
 }
 
 .header .links ul li:hover{
@@ -64,4 +78,152 @@
 .header .active{
     background: #cccccc77;
     border-bottom: 2px solid blue;
+}
+
+.mobile{
+    position: relative;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all .4s ease;
+}
+
+.mobile > div{
+    width: 30px;
+    height: 2px;
+    margin: 3px;
+    background: #111;
+}
+
+.mobile:active{
+    background: #ccc;
+}
+
+.mobile{
+    display: none;
+}
+
+.home__view{
+    position: absolute;
+    top: 10%;
+}
+
+._view{
+    width: 100%;
+    padding: 20px;
+    /* padding-top: 150px; */
+}
+
+._view ._texts{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+._texts h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    line-height: 6rem;
+    color: #ccc;
+}
+
+.register{
+    width: 100%;
+    margin-top: 80px;
+}
+
+.register a button{
+    width: 200px;
+    height: 55px;
+    background: blue;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all .5s ease;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.register button:hover{
+    transform: translateY(-6px);
+}
+
+.sports_played{
+    margin-top: 60px;
+}
+
+.sports .sports_header{
+    text-align: center;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: hsl(240, 100%, 50%);
+}
+.grid {
+    width: 95%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 50px auto;
+}
+
+.row {
+    position: relative;
+    border: 1px solid #111;
+    border-radius: 6px;
+    padding: 10px;
+    transition: all .4s ease;
+}
+
+.row_image {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.grid .row img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    text-align: center;
+}
+
+.image_text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: transparent; 
+    transition: background .4s ease; 
+    opacity: 0;
+}
+
+.image_text p{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.row:hover .image_text {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.511), rgba(0, 0, 255, 0.969));
+    opacity: 1;
+}
+
+
+@media screen and (max-width:768px) {
+    .header{
+        display: none;
+    }
+
+    .grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
 }
