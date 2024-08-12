@@ -5,7 +5,7 @@
     /* background-color: black; */
 }
 
-.__root, .app, ._root_app_, .header nav .nav_bar, .home_, .sports_played, .sports, .sports_container,.row{
+.__root, .app, ._root_app_, .header nav .nav_bar, .home_, .sports_played, .sports, .sports_container,.row, footer, .footer_socials{
     width: 100%;
     height: 100%;
     position: relative;
@@ -214,6 +214,86 @@
 .row:hover .image_text {
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0.511), rgba(0, 0, 255, 0.969));
     opacity: 1;
+}
+
+
+.footer{
+    background: hsla(240, 100%, 50%);
+}
+
+.footer_container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px;
+}
+
+.footer_top{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.footer_top_text{
+    padding-left: 20px;
+    font-size: 1rem;
+    color: rgb(252, 252, 253);
+}
+
+.social_link{
+    border-radius: 7px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    transition: all .3s ease;
+}
+
+.social_link{
+    width: 100%;
+    border: 1px solid hsla(0, 0%, 100%);
+}
+
+.social_link:hover{
+    transform: translateY(-6px);
+}
+
+.social_link a{
+    text-decoration: none;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.socials{
+    gap: 20px;
+}
+
+.socials{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.icon{
+
+    position: relative;
+}
+
+.media_name{
+    color: #cccc;
+}
+
+.icon .bi{
+    font-size: 1.5rem;
+    color: rgb(251, 251, 252);
 }
 
 

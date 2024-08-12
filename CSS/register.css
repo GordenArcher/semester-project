@@ -1,0 +1,124 @@
+.__root_, .auth_screen, .register__, .auth____, .auth_image, .register_box,
+.auth_form, .form_header, .main_form_box, .__fill__, .register_form, .register_inputs,
+.register_inputs .inputs, .input_field{
+    width: 100%;
+    height: 100%;
+}
+
+.__fill__, .input_field{
+    position: relative;
+}
+
+.imagee{
+    width: 100%;
+    height: 500px;
+    padding: 20px;
+}
+
+.imagee img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.auth____{
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.auth_form, .register_inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+
+.register_inputs{
+    padding: 0;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: start;
+}
+
+.head h2{
+    font-size: 2rem;
+    color: blue;
+    text-transform: uppercase;
+}
+
+.head span{
+    font-size: 1rem;
+    color: hsla(240, 100%, 50%, 0.606);
+}
+
+.register_inputs .input_grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin: 10px;
+}
+
+.inputs, .head{
+    margin: 10px;
+}
+/* 
+.input_field{
+    transition: all .3s ease;
+} */
+
+.input_field input{
+    position: relative;
+    width: 100%;
+    height: 45px;
+    outline: none;
+    border: 1px solid hsla(240, 100%, 50%, 0.321);
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 1rem;
+    transition: all .4s ease;
+}
+
+.input_field label{
+    position: absolute;
+    left: 2%;
+    top: 30%;
+    color: rgba(0, 0, 255, 0.35);
+    transition: all .4s ease;
+}
+
+.input_field input:focus{
+    border: 1px solid hsla(240, 100%, 50%);
+}
+
+.input_field input:focus ~ label{
+    position: absolute;
+    top: -30%;
+    padding: 5px;
+    background: #fff;
+}
+
+.firstname .active, .lastname .active, .username .active, .email .active,
+.phone .active, .password .active, .password2 .active{
+    position: absolute;
+    top: -30%;
+    padding: 5px;
+    background: #fff;
+}
+
+.submit .input_field input{
+    background: hsla(240, 100%, 50%);
+    color: hsl(0, 0%, 100%);
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.submit .input_field input:hover{
+    background: rgba(0, 0, 255, 0.861);
+}
