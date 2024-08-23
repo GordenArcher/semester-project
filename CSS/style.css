@@ -29,7 +29,6 @@ a{
     background-size: cover;
     width: 100%;
     height: 710px;
-
 }
 
 .blog_header{
@@ -499,7 +498,7 @@ a{
     color: hsl(0, 0%, 100%);
 }
 
-@media screen and (max-width:993px) {
+@media screen and (max-width:1020px) {
     .right_text{
         font-size: 1.5rem;
     }
