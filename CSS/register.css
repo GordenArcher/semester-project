@@ -86,8 +86,8 @@
 
 .input_field label{
     position: absolute;
-    left: 2%;
-    top: 30%;
+    left: 8px;
+    top: 12px;
     color: rgba(0, 0, 255, 0.35);
     transition: all .4s ease;
 }
