@@ -171,3 +171,48 @@
     background: transparent;
     color: hsl(240, 100%, 50%);
 }
+
+@media screen and (max-width:992px) {
+    .posts_grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .gridd{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .socials{
+        flex-direction: column;
+    }
+    
+    .cfrtu, .subscribe{
+        padding: 10px;
+    }
+
+    .latest_post{
+        padding: 10px;
+    }
+
+    .scribe button{
+        width: 130px;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    .posts_grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .gridd{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .cfrtu, .subscribe{
+        padding: 10px;
+    }
+
+    .scribe button{
+        width: 100px;
+    }
+}

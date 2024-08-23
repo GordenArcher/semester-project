@@ -1,6 +1,6 @@
 .event_wrapper, .events, .main_events, .main_events main, .main_imagee,
 .image_view, .ennvents, .env_row, .main_events_row, .env_row_padd, .row_left,
-.row_right, .row_left .comi, .mathch_mainn, .match, .m_head, .date__,
+.row_right .comi, .mathch_mainn, .match, .m_head, .date__,
 .game_button, .watch__but, .show, .show_image, .fteam{
     width: 100%;
     height: 100%;
@@ -128,3 +128,24 @@
     height: 100%;
 }
 
+
+@media screen and (max-width:1020px) {
+    .socials{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:768px) {
+ 
+    .show_image img, .team_image img{
+        display: none;
+    }
+
+    .m_head{
+        font-size: 1rem;
+    }
+
+    .row_left{
+        width: 100%;
+    }
+}

@@ -1,7 +1,6 @@
-// const showPost = document.querySelector('.hide')
-// const more_posts = document.querySelector('.butonnn')
+const mobile = document.getElementById('mobile')
+const nav = document.querySelector('.nav_links')
 
-// more_posts.addEventListener('click', () => {
-//     showPost.classList.add('show')
-//     more_posts.style.display = 'none'
-// })
+mobile.addEventListener('click', function() {
+    nav.classList.toggle('active')
+} )

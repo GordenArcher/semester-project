@@ -1,6 +1,7 @@
 .activitiess_new_wrap, .new_activities, .main_activiti, .mmaa,
 .activities______, .activities_tobe_done, .activities_grid,
-.activities_grid .activity_row, .activity_row .activity_image{
+.activities_grid .activity_row, .activity_row .activity_image,
+.faq, .faq_container, .faq_grid, .faq_head, .faq_row{
     width: 100%;
     height: 100%;
 }
@@ -17,6 +18,10 @@
 
 .activities______{
     padding: 40px;
+}
+
+.mmaa{
+    padding: 20px;
 }
 
 .activiti_head{
@@ -92,4 +97,121 @@
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0.511), rgba(0, 0, 255, 0.969));
     opacity: 1;
     color: #fff;
+}
+
+.faq{
+    margin-top: 60px;
+}
+
+.faq_wrapper{
+    margin-top: 40px;
+    transition: all .4s ease;
+}
+
+.faq_grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    transition: all .3s ease;
+}
+
+.faq_row{
+    padding: 10px;
+    transition: all .4s ease;
+    height: 50px;
+    overflow: hidden;
+}
+
+.release{
+    height: 100%;
+    transition: all .4s ease;
+}
+
+.faq_row .quest{
+    font-size: .8rem;
+    color: hsla(240, 100%, 50%);
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.row_answer{
+    padding-top: 40px;
+}
+
+.rrow_question{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.iconn, .iconnnnn{
+    position: relative;
+    width: 20px;
+    height: 2px;
+    background: hsla(240, 100%, 50%);
+    display: block;
+    transition: all .4s ease;
+}
+
+.iconn::before, .iconnnnn::before{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    transition: all .4s ease;
+    background: hsla(240, 100%, 50%);
+    transform: rotate(-90deg);
+}
+
+.rrow_question .iconnnnn::before{
+    transform: rotate(0deg);
+    transition: all .4s ease;
+}
+
+@media screen and (max-width:992px) {
+    .activities_grid, .faq_grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .activity_test{
+        opacity: 1;
+    }
+
+    .activity_test span{
+        color: hsla(240, 100%, 50%);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: start;
+        padding: 10px;
+    }
+
+    .socials{
+        flex-direction: column;
+    }
+
+    .bold p{
+        color: hsl(240, 100%, 50%);
+        font-size: 1rem;
+    }
+    
+    .activiti_head h1{
+        font-size: 3.7rem;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    .bold p{
+        color: hsl(240, 100%, 50%);
+        font-size: .8rem;
+    }
+    
+    .activiti_head h1{
+        font-size: 2rem;
+        color: hsl(240, 100%, 50%);
+    }
+    
 }

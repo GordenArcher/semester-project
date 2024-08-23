@@ -37,7 +37,7 @@ row4.addEventListener('click', () => {
 })
 
 row5.addEventListener('click', () => {
-    row5.classList.add('release')
+    row5.classList.toggle('release')
     iconn5.classList.toggle('iconnnnn')
 })
 

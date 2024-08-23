@@ -42,7 +42,7 @@
     color: #ffffffc0;
 }
 
-.booking_section, .faq_container{
+.booking_section{
     padding: 60px;
 }
 
@@ -59,7 +59,7 @@
     color: blue;
 }
 
-.book___, .faq{
+.book___{
     margin-top: 60px;
 }
 
@@ -96,8 +96,8 @@
 
 .inputssss label{
     position: absolute;
-    left: 2%;
-    top: 30%;
+    left: 11px;
+    top: 15px;
     color: rgba(0, 0, 255, 0.35);
     transition: all .4s ease;
 }
@@ -128,7 +128,7 @@ option{
 
 .inputssss input:focus ~ label{
     position: absolute;
-    top: -30%;
+    top: -13px;
     padding: 5px;
     background: #fff;
 }
@@ -136,7 +136,7 @@ option{
 .full_name .active, .email .active, .message .active
 .phone .active{
     position: absolute;
-    top: -30%;
+    top: -13px;
     padding: 5px;
     background: #fff;
 }
@@ -160,72 +160,23 @@ option{
     color: hsla(240, 100%, 50%, 0.321);
 }
 
-.faq_wrapper{
-    margin-top: 40px;
-    transition: all .4s ease;
+@media screen and (max-width:1020px) {
+    .fill{
+        width: 90%;
+    }
 }
 
-.faq_grid{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    transition: all .3s ease;
-}
+@media screen and (max-width:768px) {
+    .fill{
+        width: 100%;
+    }
 
-.faq_row{
-    padding: 10px;
-    transition: all .4s ease;
-    height: 50px;
-    overflow: hidden;
-}
+    .booking_section{
+        padding: 20px;
+    }
 
-.release{
-    height: 100%;
-}
-
-.faq_row .quest{
-    font-size: .8rem;
-    color: hsla(240, 100%, 50%);
-    cursor: pointer;
-    transition: all .3s ease;
-}
-
-.row_answer{
-    padding-top: 40px;
-}
-
-.rrow_question{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    cursor: pointer;
-}
-
-.iconn, .iconnnnn{
-    position: relative;
-    width: 20px;
-    height: 2px;
-    background: hsla(240, 100%, 50%);
-    display: block;
-    transition: all .4s ease;
-}
-
-.iconn::before, .iconnnnn::before{
-    content: '';
-    position: absolute;
-    width: 20px;
-    height: 2px;
-    transition: all .4s ease;
-    background: hsla(240, 100%, 50%);
-    transform: rotate(-90deg);
-}
-
-.rrow_question .iconnnnn::before{
-    transform: rotate(0deg);
-    transition: all .4s ease;
-}
-
-.bb, .faq{
-    transition: all .4s ease;
-    transition-behavior: smooth;
+    .book___{
+        margin-top: 20px;
+    }
+    
 }
