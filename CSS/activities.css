@@ -1,0 +1,95 @@
+.activitiess_new_wrap, .new_activities, .main_activiti, .mmaa,
+.activities______, .activities_tobe_done, .activities_grid,
+.activities_grid .activity_row, .activity_row .activity_image{
+    width: 100%;
+    height: 100%;
+}
+
+.new_active_head{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background: url('../images/image12.avif');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.activities______{
+    padding: 40px;
+}
+
+.activiti_head{
+    text-align: center;
+    padding: 30px;
+}
+
+.bold{
+    text-transform: uppercase;
+}
+
+.bold p{
+    color: hsl(240, 100%, 50%);
+    font-size: 1.2rem;
+}
+
+.activiti_head h1{
+    font-size: 5rem;
+    color: hsl(240, 100%, 50%);
+}
+
+.activiti_head .desc{
+    padding-top: 10px;
+}
+
+.activities_grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.activity_row {
+    position: relative;
+    border-radius: 6px;
+    transition: all .4s ease;
+}
+
+.activity_image {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.activity_image img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.activity_test {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: transparent; 
+    transition: background .4s ease; 
+    opacity: 0;
+    border-radius: 4px;
+}
+
+.activity_test span{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.4rem;
+}
+
+.activity_row:hover .activity_test {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.511), rgba(0, 0, 255, 0.969));
+    opacity: 1;
+    color: #fff;
+}

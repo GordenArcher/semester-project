@@ -35,6 +35,11 @@
     color: #ffffffc0;
 }
 
+.main_blog_head{
+    text-align: center;
+    font-size: 2rem;
+}
+
 .show{
     display: block;
 }

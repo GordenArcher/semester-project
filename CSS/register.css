@@ -122,3 +122,54 @@
 .submit .input_field input:hover{
     background: rgba(0, 0, 255, 0.861);
 }
+
+@media screen and (max-width:992px) {
+    .header{
+        display: none;
+    }
+
+    .grid, .socials{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .auth____{
+        padding: 30px;
+    }
+
+    .imagee{
+        width: 90%;
+        height: 400px;
+        padding: 10px;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    .auth____, .socials{
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+}
+
+@media screen and (max-width:472px) {
+    .auth____, .socials{
+        flex-direction: column;
+        padding: 2px;
+    }
+
+    .imagee{
+        width: 70%;
+        height: 300px;
+        padding: 10px;
+    }
+
+    .grid{
+        margin: 0;
+    }
+
+    .input_grid{
+        margin: 0;
+    }
+    
+}
