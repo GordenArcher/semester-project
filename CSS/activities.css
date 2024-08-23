@@ -188,6 +188,10 @@
         padding: 10px;
     }
 
+    .activities______{
+        padding: 20px;
+    }
+
     .socials{
         flex-direction: column;
     }
@@ -214,4 +218,7 @@
         color: hsl(240, 100%, 50%);
     }
     
+    .activities______{
+        padding: 6px;
+    }
 }

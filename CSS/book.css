@@ -178,5 +178,9 @@ option{
     .book___{
         margin-top: 20px;
     }
+
+    .socials{
+        flex-direction: column;
+    }
     
 }

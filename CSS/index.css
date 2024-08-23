@@ -51,7 +51,7 @@
     z-index: 99999;
 }
 
-.nav_links.active{
+.nav_links.nav_active{
     transform: translateX(0%);
     background: hsl(240, 100%, 50%);
 }
@@ -90,26 +90,31 @@
 
 .mobile{
     position: relative;
-    width: 45px;
-    height: 45px;
+    width: 54px;
+    height: 54px;
+}
+
+.puul{
+    width: 100%;
+    height: 100%;
     cursor: pointer;
     border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
     transition: all .4s ease;
+    border: none;
+    padding: 5px;
+    background: transparent;
 }
 
-.mobile > div{
-    width: 30px;
+.puul > div{
+    width: 80%;
     height: 2px;
-    margin: 3px;
-    background: #111;
+    margin: 5px;
+    background: hsl(240, 100%, 50%);
+    z-index: 2;
 }
 
-.mobile{
-    background: #ccc;
+.puul:active{
+    background: #111;
 }
 
 .mobile{
@@ -307,7 +312,7 @@
 
 @media screen and (max-width:992px) {
     .nav_links{
-        position: absolute;
+        position: fixed;
         left: 0;
         background: hsl(240, 100%, 50%);
         width: 60%;
@@ -347,6 +352,5 @@
     .grid{
         grid-template-columns: repeat(2, 1fr);
     }
-
     
 }
