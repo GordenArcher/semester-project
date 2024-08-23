@@ -5,157 +5,387 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="/CSS/index.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/book.css">
+    <title>Bookings || G-KANAD</title>
 </head>
 <body>
-    <div class="header">
-        <div class="nav_bar">
-            <nav>
-                <div class="nav_bar">
-                    <div class="nav_logo">
-                        <img src="/945A3372.webp" alt="logo">
-                    </div>
-
-                    <div class="nav_links">
-                        <div class="links">
-                            <ul>
-                                <li>
-                                    <a href="/">
-                                       Home
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/pages/about.html">
-                                        About
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/pages/blog.html">
-                                        Blog
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/pages/events.html">
-                                        Event
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/pages/activities.html">
-                                        New Activities
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/pages/booking.html">
-                                        Book Online
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/pages/auth/register.html">
-                                        Register
-                                    </a>
-                                </li>
-                            </ul>
+    <div class="bookings__">
+        <div class="book">
+            <div class="book_wrapper">
+                <div class="chalee">
+                    <section class="book_header">
+                        <div class="header">
+                            <div class="nav_bar">
+                                <nav>
+                                    <div class="nav_bar">
+                                        <div class="nav_logo">
+                                            <img src="/945A3372.webp" alt="logo">
+                                        </div>
+                    
+                                        <div class="nav_links ">
+                                            <div class="mobile">
+                                                <div></div>
+                                                <div></div>
+                                                <div></div>
+                                            </div>
+                                            <div class="links">
+                                                <ul>
+                                                    <li>
+                                                        <a href="/">
+                                                           Home
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/pages/about.html">
+                                                            About
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/pages/blog.html">
+                                                            Blog
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/pages/events.html">
+                                                            Event
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/pages/activities.html">
+                                                            New Activities
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/pages/booking.html">
+                                                            Book Online
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/pages/auth/register.html">
+                                                            Register
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
                         </div>
+        
+                        <div class="about_view">
+                            <div class="about_head">
+                                <h1>News</h1>
+                            </div>
+        
+                            <div class="about_link_view">
+                                <span>Home</span>
+                                <span> > </span>
+                                <span>Bookings</span>
+                            </div>
+        
+                        </div>
+                    </section>
+
+                    <section class="main_booking_section">
+                        <div class="booking_section">
+                            <main>
+                                <div class="bookin_form">
+                                    <div class="book_head">
+                                        <h2>Book here</h2>
+                                    </div>
+
+                                    <div class="bokk__">
+                                        <form action="#!">
+                                            <div class="book___">
+    
+                                                <div class="booking_">
+                                                    <div class="book_inputs">
+                                                        <div class="name fill">
+                                                            <div class="full_name inputssss">
+                                                                <input type="text" id="fullname" role="text" aria-details="full name ">
+                                                                <label for="fullname">Full Name</label>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="emailll fill">
+                                                            <div class="email inputssss">
+                                                                <input type="email" role="text" aria-details="full name ">
+                                                                <label for="email">Email <span style="color: red;">*</span> </label>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="phoneWha fill">
+                                                            <div class="phone inputssss">
+                                                                <input type="tel" role="text" aria-details="full name ">
+                                                                <label for="phone">Full Name <span style="color: red;">*</span> </label>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="name fill">
+                                                            <div class="select inputssss">
+                                                                <select name="" id="select">
+                                                                    <option value="" aria-selected="true" selected>----Select----</option>
+                                                                    <option value="">On Campus</option>
+                                                                    <option value="">Online</option>
+                                                                    <option value="">Other Experience</option>
+                                                                </select>
+
+                                                                <label for="select">Request a Consultation <span style="color: red;">*</span> </label>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="messsss fill">
+                                                            <div class="message inputssss">
+                                                                <textarea name="" id="message"></textarea>
+                                                                <label for="message">Message <span style="color: red;">*</span> </label>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="fill">
+                                                            <div class="button inputssss">
+                                                                <input type='submit' a role="button" id="submit">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </main>
+                        </div>
+                    </section>
+
+                    <section class="faq">
+                        <div class="faq_container">
+                            <div class="faq_head">
+                                <div class="headdd">
+                                    <h2>Faq</h2>
+                                </div>
+                            </div>
+
+                            <div class="faq_wrapper">
+                                <div class="faq_grid">
+                                    <div class="faq_row row1">
+                                        <div class="rrow_question">
+                                            <div class="quest">
+                                                <h2>Vulputate enim nulla aliquet porttitor?</h2>
+                                            </div>
+
+                                            <div class="iconn"></div>
+                                        </div>
+
+                                        <div class="row_answer">
+                                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</span>
+                                        </div>
+                                    </div>
+                                    <div class="faq_row row2">
+                                        <div class="rrow_question">
+                                            <div class="quest">
+                                                <h2>Vulputate enim nulla aliquet porttitor?</h2>
+                                            </div>
+
+                                            <div class="iconn"></div>
+                                        </div>
+
+                                        <div class="row_answer">
+                                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</span>
+                                        </div>
+                                    </div>
+                                    <div class="faq_row  row3">
+                                        <div class="rrow_question">
+                                            <div class="quest">
+                                                <h2>Tincidunt augue interdum velit euismod in pellentesque?</h2>
+                                            </div>
+
+                                            <div class="iconn"></div>
+                                        </div>
+
+                                        <div class="row_answer">
+                                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</span>
+                                        </div>
+                                    </div>
+                                    <div class="faq_row row4">
+                                        <div class="rrow_question">
+                                            <div class="quest">
+                                                <h2>Tincidunt augue interdum velit euismod in pellentesque?</h2>
+                                            </div>
+
+                                            <div class="iconn"></div>
+                                        </div>
+
+                                        <div class="row_answer">
+                                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</span>
+                                        </div>
+                                    </div>
+                                    <div class="faq_row row5">
+                                        <div class="rrow_question">
+                                            <div class="quest">
+                                                <h2>Lacus suspendisse faucibus interdum posuere?</h2>
+                                            </div>
+
+                                            <div class="iconn"></div>
+                                        </div>
+
+                                        <div class="row_answer">
+                                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</span>
+                                        </div>
+                                    </div>
+                                    <div class="faq_row row6">
+                                        <div class="rrow_question">
+                                            <div class="quest">
+                                                <h2>Lacus suspendisse faucibus interdum posuere?</h2>
+                                            </div>
+
+                                            <div class="iconn"></div>
+                                        </div>
+
+                                        <div class="row_answer">
+                                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</span>
+                                        </div>
+                                    </div>
+                                    <div class="faq_row row7">
+                                        <div class="rrow_question">
+                                            <div class="quest">
+                                                <h2>Pretium viverra suspendisse potenti nullam? </h2>
+                                            </div>
+
+                                            <div class="iconn"></div>
+                                        </div>
+
+                                        <div class="row_answer">
+                                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</span>
+                                        </div>
+                                    </div>
+                                    <div class="faq_row row8">
+                                        <div class="rrow_question">
+                                            <div class="quest">
+                                                <h2>Pretium viverra suspendisse potenti nullam?</h2>
+                                            </div>
+
+                                            <div class="iconn"></div>
+                                        </div>
+
+                                        <div class="row_answer">
+                                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                
+                    <div class="footer bb">
+                        <footer>
+                            <div class="footer_container">
+                                <div class="footer_top">
+
+                                    <div class="footer_top_text">
+                                        <h2>Follow our socials</h2>
+                                    </div>
+                
+                                    <div class="footer_socials">
+                                        <div class="socials">
+
+                                            <div class="social_link">
+                                                <a href="https://linkedin.com/in/GordenArcher" target="_blank" aria-details="social link" class="media">
+
+                                                    <div class="media_icon">
+                                                        <div class="icon">
+                                                            <i class="bi bi-linkedin"></i>
+                                                        </div>
+                                                    </div>
+                
+                                                    <div class="media_name">
+                                                        <p>Linkedin</p>
+                                                    </div> 
+
+                                                </a>
+                                            </div>
+
+                                            <div class="social_link">
+                                                <a href="https://github.com/GordenArcher" target="_blank" aria-details="social link" class="media">
+                                                    <div class="media_icon">
+                                                        <div class="icon">
+                                                            <i class="bi bi-github"></i>
+                                                        </div>
+                                                    </div>
+                
+                                                    <div class="media_name">
+                                                        <p>Github</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+
+                                            <div class="social_link">
+                                                <a href="#!" target="_blank" aria-details="social link" class="media">
+                                                    <div class="media_icon">
+                                                        <div class="icon">
+                                                            <i class="bi bi-instagram"></i>
+                                                        </div>
+                                                    </div>
+                
+                                                    <div class="media_name">
+                                                        <p>Instagram</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+
+                                            <div class="social_link">
+                                                <a href="#!" target="_blank" aria-details="social link" class="media">
+                                                    <div class="media_icon">
+                                                        <div class="icon">
+                                                            <i class="bi bi-twitter-x"></i>
+                                                        </div>
+                                                    </div>
+                
+                                                    <div class="media_name">
+                                                        <p>Twitter-X</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+
+                                            <div class="social_link">
+                                                <a href="#!" target="_blank" aria-details="social link" class="media">
+                                                    <div class="media_icon">
+                                                        <div class="icon">
+                                                            <i class="bi bi-telegram"></i>
+                                                        </div>
+                                                    </div>
+                
+                                                    <div class="media_name">
+                                                        <p>Telegram</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+
+                                            <div class="social_link">
+                                                <a href="#!" target="_blank" aria-details="social link" class="media">
+                                                    <div class="media_icon">
+                                                        <div class="icon">
+                                                            <i class="bi bi-whatsapp"></i>
+                                                        </div>
+                                                    </div>
+                
+                                                    <div class="media_name">
+                                                        <p>WhatsApp</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="footer_bottom"></div>
+                            </div>
+                        </footer>
                     </div>
                 </div>
-            </nav>
+            </div>
         </div>
     </div>
 
-    <div class="footer">
-        <footer>
-            <div class="footer_container">
-                <div class="footer_top">
-                    <div class="footer_top_text">
-                        <h2>Follow our socials</h2>
-                    </div>
-
-                    <div class="footer_socials">
-                        <div class="socials">
-                            <div class="social_link">
-                                <a href="#!" target="_blank" aria-details="social link" class="media">
-                                    <div class="media_icon">
-                                        <div class="icon">
-                                            <i class="bi bi-linkedin"></i>
-                                        </div>
-                                    </div>
-
-                                    <div class="media_name">
-                                        <p>Linkedin</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="social_link">
-                                <a href="https://github.com/GordenArcher" target="_blank" aria-details="social link" class="media">
-                                    <div class="media_icon">
-                                        <div class="icon">
-                                            <i class="bi bi-github"></i>
-                                        </div>
-                                    </div>
-
-                                    <div class="media_name">
-                                        <p>Github</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="social_link">
-                                <a href="#!" target="_blank" aria-details="social link" class="media">
-                                    <div class="media_icon">
-                                        <div class="icon">
-                                            <i class="bi bi-instagram"></i>
-                                        </div>
-                                    </div>
-
-                                    <div class="media_name">
-                                        <p>Instagram</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="social_link">
-                                <a href="#!" target="_blank" aria-details="social link" class="media">
-                                    <div class="media_icon">
-                                        <div class="icon">
-                                            <i class="bi bi-twitter-x"></i>
-                                        </div>
-                                    </div>
-
-                                    <div class="media_name">
-                                        <p>Twitter-X</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="social_link">
-                                <a href="#!" target="_blank" aria-details="social link" class="media">
-                                    <div class="media_icon">
-                                        <div class="icon">
-                                            <i class="bi bi-telegram"></i>
-                                        </div>
-                                    </div>
-
-                                    <div class="media_name">
-                                        <p>Telegram</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="social_link">
-                                <a href="#!" target="_blank" aria-details="social link" class="media">
-                                    <div class="media_icon">
-                                        <div class="icon">
-                                            <i class="bi bi-whatsapp"></i>
-                                        </div>
-                                    </div>
-
-                                    <div class="media_name">
-                                        <p>WhatsApp</p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer_bottom"></div>
-            </div>
-        </footer>
-    </div>
+    <script src="/JS/book.js"></script>
 </body>
 </html>

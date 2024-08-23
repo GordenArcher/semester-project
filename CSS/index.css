@@ -172,7 +172,7 @@
 
 .row {
     position: relative;
-    border: 1px solid #111;
+    border: 1px solid #ccc;
     border-radius: 6px;
     padding: 10px;
     transition: all .4s ease;
@@ -296,8 +296,18 @@
     color: rgb(251, 251, 252);
 }
 
-
 @media screen and (max-width:768px) {
+    .header{
+        display: none;
+    }
+
+    .grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+
+@media screen and (max-width:993px) {
     .header{
         display: none;
     }

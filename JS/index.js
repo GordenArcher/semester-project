@@ -1,8 +1,7 @@
-// document.querySelectorAll('.row_image').forEach(item => {
-//     item.addEventListener('mouseover', () => {
-//         item.style.background = 'green';
-//     });
-//     item.addEventListener('mouseout', () => {
-//         item.nextElementSibling.style.background = '';
-//     });
-// });
+// const showPost = document.querySelector('.hide')
+// const more_posts = document.querySelector('.butonnn')
+
+// more_posts.addEventListener('click', () => {
+//     showPost.classList.add('show')
+//     more_posts.style.display = 'none'
+// })

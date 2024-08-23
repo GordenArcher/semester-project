@@ -1,0 +1,231 @@
+.bookings__, .book, .chalee, .main_booking_section, .booking_section,
+.bookin_form, .bokk__, .book___, .booking_, .book_inputs, .fill,
+.faq, .faq_container, .faq_grid, .faq_head, .faq_row{
+    width: 100%;
+    height: 100%;
+}
+
+.book_header{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background: url('../images/image12.avif');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about_view{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.about_view .about_head{
+    font-size: 2.3rem;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.about_view .about_link_view{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #ffffffc0;
+}
+
+.booking_section, .faq_container{
+    padding: 60px;
+}
+
+.bookin_form, .book_inputs, .faq_container, .faq_row{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.book_head{
+    text-align: center;
+    font-size: 2rem;
+    color: blue;
+}
+
+.book___, .faq{
+    margin-top: 60px;
+}
+
+.fill{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    margin-top: 20px;
+}
+
+.inputssss input, textarea, select{
+    position: relative;
+    width: 100%;
+    height: 45px;
+    outline: none;
+    border: 1px solid hsla(240, 100%, 50%, 0.321);
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 1rem;
+    transition: all .4s ease;
+}
+
+.inputssss textarea{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    outline: none;
+    border: 1px solid hsla(240, 100%, 50%, 0.321);
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 1rem;
+    transition: all .4s ease;
+}
+
+.inputssss label{
+    position: absolute;
+    left: 2%;
+    top: 30%;
+    color: rgba(0, 0, 255, 0.35);
+    transition: all .4s ease;
+}
+
+.select label{
+    position: absolute;
+    left: 0%;
+    top: -55%;
+    color: rgba(0, 0, 255, 0.35);
+    transition: all .4s ease;
+}
+
+option{
+    color: rgba(0, 0, 255, 0.35);
+}
+
+.message label{
+    position: absolute;
+    left: 0%;
+    top: -10%;
+    color: rgba(0, 0, 255, 0.35);
+    transition: all .4s ease;
+}
+
+.inputssss input:focus{
+    border: 1px solid hsla(240, 100%, 50%);
+}
+
+.inputssss input:focus ~ label{
+    position: absolute;
+    top: -30%;
+    padding: 5px;
+    background: #fff;
+}
+
+.full_name .active, .email .active, .message .active
+.phone .active{
+    position: absolute;
+    top: -30%;
+    padding: 5px;
+    background: #fff;
+}
+
+.button input{
+    background: hsla(240, 100%, 50%);
+    height: 55px;
+    cursor: pointer;
+    transition: all .4s ease;
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+.button input:hover{
+    background: rgb(255, 255, 255);
+    color: hsl(0, 0%, 0%);
+}
+
+.headdd{
+    font-size: 2rem;
+    color: hsla(240, 100%, 50%, 0.321);
+}
+
+.faq_wrapper{
+    margin-top: 40px;
+    transition: all .4s ease;
+}
+
+.faq_grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    transition: all .3s ease;
+}
+
+.faq_row{
+    padding: 10px;
+    transition: all .4s ease;
+    height: 50px;
+    overflow: hidden;
+}
+
+.release{
+    height: 100%;
+}
+
+.faq_row .quest{
+    font-size: .8rem;
+    color: hsla(240, 100%, 50%);
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.row_answer{
+    padding-top: 40px;
+}
+
+.rrow_question{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.iconn, .iconnnnn{
+    position: relative;
+    width: 20px;
+    height: 2px;
+    background: hsla(240, 100%, 50%);
+    display: block;
+    transition: all .4s ease;
+}
+
+.iconn::before, .iconnnnn::before{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    transition: all .4s ease;
+    background: hsla(240, 100%, 50%);
+    transform: rotate(-90deg);
+}
+
+.rrow_question .iconnnnn::before{
+    transform: rotate(0deg);
+    transition: all .4s ease;
+}
+
+.bb, .faq{
+    transition: all .4s ease;
+    transition-behavior: smooth;
+}

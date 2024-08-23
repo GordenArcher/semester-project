@@ -353,7 +353,7 @@
 }
 
 
-@media screen and (max-width:924px) {
+@media screen and (max-width:992px) {
 
     .vision_mission_container{
         flex-direction: column;
@@ -419,7 +419,7 @@
     }
 
     .coach_grid{
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .we_do, .academy_program, .coaches__, .history_row{
@@ -448,7 +448,7 @@
         flex-direction: column;
     }
 
-    .what_we_head, .coaching_head, .history_column, .prog_header{
+    .what_we_head, .coaching_head, .history_column, .prog_header, .facilies_head{
         display: flex;
         flex-direction: column;
     }
@@ -463,6 +463,7 @@
 
     .what_grid{
         grid-template-columns: repeat(1, 1fr);
+        margin: 8px;
     }
 
     .coach_grid{

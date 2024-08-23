@@ -1,0 +1,539 @@
+.blog__container, .blog-page, .blog_view, .blog_main_view, .view_blog, .blog_about, 
+.about___, .blog_about_head, .about_left, .about_right, .blog_about_section,
+.about_grid, .about_grid .colunm, .about_coach, .coach_talk, .speech, .speech,
+.line, .academy_program, .prog_left, .prog_right, .number, .program_img, .program_desc,
+.program_header, .about_coach, .coaches__, .coach_left, .coach_right, .gallery,
+.gallery_content, .gallary_images, .facilities, .academy_facilities, .facilies_head,
+.facilities_head_left, .facilities_head_right, .facilities_wrapper, .facilities_content,
+.facilties_grid, .facilities_row, .what_wedo, .we_do, .what_we_head, .head_left, .head_right,
+.what_we_do_row, .what_grid, .roww, .blog_post, .postss,.potss__, .blog_row, .posts_grid,
+.blog_column, .blog_head, .desc, .blog_time, .post_time{
+    width: 100%;
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.blog-page, .blog_view, .view_blog, .speech, .coach_info, .we_do, .blog_time{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.blog_view{
+    background: url('../images/image16.avif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 710px;
+
+}
+
+.blog_header{
+    position: relative;
+}
+
+.view_blog{
+    align-items: center;
+    justify-content: center;
+}
+
+.blog_welcome_text, .gallery_head{
+    font-size: 2rem;
+    color: #fff;
+}
+
+.blog_welcome_text span{
+    padding-left:170px;
+}
+
+.blog_welcome_text h1{
+    line-height: 100px;
+}
+
+.blog_botton{
+    position: relative;
+    margin-top: 80px;
+}
+
+.blog_botton button{
+    width: 200px;
+    height: 55px;
+    border: none;
+    font-size: 1.2rem;
+    background: hsl(0, 0%, 100%);
+    border-radius: 57px;
+    cursor: pointer;
+    color: hsl(240, 100%, 50%);
+    transition: all .3s ease;
+}
+
+.blog_botton button:hover{
+    transform: translateY(-6px);
+    background: hsl(240, 100%, 50%);
+    color: hsl(0, 0%, 100%);
+}
+
+.blog_about, .about_main_info, .about_coach{
+    margin-top: 70px;
+}
+
+.about_main_info, .facilities{
+    margin-top: 50px;
+}
+
+.about___, .gallery, .academy_facilities{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+}
+
+.blog_about_head, .about_left, .coach_talk, .prog_header, 
+.prog_left, .coach_left, .coaching_head, .facilies_head, 
+.facilities_head_left, .what_we_head, .head_left, .post_time{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.about_left .dot, .prog_left .dot, .coach_left .dot, .facilities_head_left .dot, .head_left .dot{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    background: hsl(240, 100%, 50%);
+    border-radius: 50%;
+}
+
+.about_left .dot_text, .prog_left .left_text, .dot_text, .facilities_head_left .dot_test, .head_left .dot_text{
+    font-size: 1rem;
+    color: hsla(240, 100%, 50%);
+} 
+
+.right_text, .right_text, .coach_right, .facilities_head_right, .head_right{
+    font-size: 2.2rem;
+    color: hsla(240, 100%, 50%);
+}
+
+.about_grid, .facilties_grid, .what_grid, .posts_grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin: 10px;
+}
+
+.about_grid .colunm, .blog_column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.colunm .column_image{
+    width: 60px;
+    height: 60px;
+}
+
+.colunm .column_image img{
+    width: 100%;
+    height: 100%;
+}
+
+.colunm .column_head{
+    color: hsl(240, 100%, 50%);
+    font-size: 1rem;
+}
+
+.colunm .column_desc{
+    position: relative;
+    margin-top: 10px;
+}
+
+.colunm .column_desc .desc{
+    font-size: .9rem;
+}
+
+.about_coach{
+    background: hsl(240, 100%, 50%);
+    padding: 20px;
+}
+
+.coach_testimonial{
+    padding: 70px;
+}
+
+.speach___{
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+.line{
+    width: 100%;
+    height: 2px;
+    background: red;
+}
+
+.coach_name{
+    padding: 10px 0;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.coach_title{
+    font-size: 1rem;
+    font-size: 200;
+    color: #fff;
+}
+
+.blog_coach_image{
+    width: 300px;
+    height: 300px;
+    padding-left: 30px;
+    transform: rotate(-20deg);
+    transition: all .4s ease;
+}
+
+.coach_talk .blog_coach_image:hover{
+    transform: rotate(0);
+}
+
+.coach_talk .blog_coach_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.academy_program, .we_do, .latest_post{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px;
+}
+
+.program__, .gallary_images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.number, .blog_head{
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: hsla(240, 100%, 50%);
+}
+
+.program_header h1, .element_head h2{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: hsla(240, 100%, 50%, 0.656);
+}
+
+.element_descc, .descritp{
+    font-size: .9rem;
+    font-weight: 100;
+}
+
+.element_descc, .icon_element{
+    position: relative;
+    padding: 10px;
+}
+
+.icon_element, .history_header{
+    text-align: center;
+}
+
+.icon_element img{
+    width: 40px;
+    height: 40px;
+    transition: all .3s ease;
+}
+
+.icon_element img:hover{
+    width: 30px;
+    height: 30px;
+}
+
+.our_coach{
+    padding: 20px;
+}
+
+.coach_grid{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+    margin: 10px;
+}
+
+.coach_row{
+    padding: 5px;
+    border: 1px solid hsla(240, 100%, 50%, 0);
+    transition: all .5s ease;
+}
+
+.coach_row:hover{
+    border: 1px solid hsla(240, 100%, 50%, 0.304);
+    box-shadow: 0 0 3px #ccc;
+}
+
+.coach_row .coach_image{
+    width: 100%;
+    height: 300px;
+}
+
+.coach_row .coach_image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.coach_row{
+    align-items: start;
+}
+
+.coach_desc, .gallery_content{
+    margin-top: 10px;
+}
+
+.person_info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.coach_name{
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: hsla(240, 100%, 50%);
+}
+
+.coach_work{
+    font-size: 1rem;
+}
+
+.gallery_head, .posts_header{
+    color: hsla(240, 100%, 50%);
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.view_more_gallery{
+    position: relative;
+    text-align: center;
+    margin: 50px;
+}
+
+.view_more_gallery button{
+    width: 200px;
+    padding: 14px;
+    font-size: 1.2rem;
+    border: 1px solid hsla(240, 100%, 50%, 0.656);
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all .3s ease;
+    background: transparent;
+}
+
+.view_more_gallery button:hover{
+    transform: translateY(-6px);
+    background: hsl(240, 100%, 50%);
+    color: #fff;
+}
+
+.gallery_content, .facilities_content, .potss__{
+    margin-top: 30px;
+}
+
+.gallary_images .image{
+    width: 300px;
+    height: 400px;
+    position: relative;
+    transition: all .4s ease;
+}
+
+.gallary_images .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.gallary_images .image:first-child{
+    transform: rotate(-20deg);
+}
+
+.gallary_images .image:last-child{
+    transform: rotate(20deg);
+}
+
+.gallary_images:hover .image{
+    transform: rotate(0deg);
+}
+
+.facilities_row {
+    position: relative;
+    border-radius: 6px;
+    /* padding: 10px; */
+    transition: all .4s ease;
+}
+
+.facility_row_image {
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+.facility_row_image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    object-fit: cover;
+}
+
+.facility_name {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: transparent; 
+    transition: background .4s ease; 
+    opacity: 0;
+    border-radius: 3px;
+}
+
+.facility_name span{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.facilities_row:hover .facility_name {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.511), rgba(0, 0, 255, 0.969));
+    opacity: 1;
+}
+
+.roww, .coach_row, .social_link{
+    border: 1px solid hsla(240, 100%, 50%, 0.114);
+    border-radius: 7px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    transition: all .3s ease;
+}
+
+.roww:hover{
+    transform: translateY(-6px);
+}
+
+.roww .roww_image{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.roww_image img{
+    width: 50px;
+    height: 50px;
+}
+
+.roww .roww_head{
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+    color: hsla(240, 100%, 50%);
+}
+
+.roww .roww_desc{
+    font-size: 1rem;
+}
+
+.social_link{
+    width: 100%;
+    border: 1px solid hsla(0, 0%, 100%);
+}
+
+.blog_image .image{
+    width: 100%;
+    height: 150px;
+    position: relative;
+}
+
+.blog_image .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0 ;
+}
+
+.blog_time .line{
+    background: #ccc;
+    height: 1px;
+}
+
+.post_time{
+    font-size: .8rem;
+    color: hsla(240, 100%, 50%, 0.456);
+}
+
+.blog_image .image p{
+    position: absolute;
+    top: 10%;
+    right: 7%;
+    padding: 3px;
+    background: hsla(240, 100%, 50%);
+    border-radius: 4px;
+    color: hsl(0, 0%, 100%);
+}
+
+@media screen and (max-width:993px) {
+    .right_text{
+        font-size: 1.5rem;
+    }
+
+    .about_grid, .grid, .posts_grid, .facilties_grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    .blog_welcome_text{
+        font-size: 1rem;
+        line-height: 10px;
+    }
+
+    .blog_about_head, .coach_talk, .gallary_images{
+        flex-direction: column;
+    }
+
+    .gallery_head, .head_right{
+        font-size: 1.4rem;
+    }
+
+    .blog_coach_image, .gallary_images .image:first-child, .gallary_images .image:last-child{
+        transform: rotate(0deg);
+    }
+    
+}
+
+@media screen and (max-width:472px) {
+    .about_grid, .grid, .posts_grid, .facilties_grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
