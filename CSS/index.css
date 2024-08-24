@@ -126,6 +126,33 @@
     top: 10%;
 }
 
+.about_view{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.about_view .about_head{
+    font-size: 2.3rem;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.about_view .about_link_view{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #ffffffc0;
+}
+
 ._view{
     width: 100%;
     padding: 20px;
@@ -310,7 +337,7 @@
     color: rgb(251, 251, 252);
 }
 
-@media screen and (max-width:992px) {
+@media screen and (max-width:1020px) {
     .nav_links{
         position: fixed;
         left: 0;
@@ -336,6 +363,10 @@
         border-radius: 3px;
         transition: all .4s ease;
         border: none;
+    }
+
+    .about_head h1{
+        font-size: 2rem;
     }
 
     .grid{

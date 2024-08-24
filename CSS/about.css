@@ -91,14 +91,12 @@
     font-size: 2rem;
     text-align: center;
     padding: 20px;
-    font-family: cursive;
     color: hsla(240, 100%, 50%);
 }
 
 .connt p{
     text-align: center;
     line-height: 20px;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .we_do{

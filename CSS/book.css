@@ -133,7 +133,7 @@ option{
     background: #fff;
 }
 
-.full_name .active, .email .active, .message .active
+.fullname .active, .email .active,
 .phone .active{
     position: absolute;
     top: -13px;
