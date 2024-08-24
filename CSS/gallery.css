@@ -191,6 +191,7 @@
     .modal img{
         height: 70vh;
         margin-top: 50px;
+        object-fit: cover;
     }
 }
 
