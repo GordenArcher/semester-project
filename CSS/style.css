@@ -7,7 +7,7 @@
 .facilities_head_left, .facilities_head_right, .facilities_wrapper, .facilities_content,
 .facilties_grid, .facilities_row, .what_wedo, .we_do, .what_we_head, .head_left, .head_right,
 .what_we_do_row, .what_grid, .roww, .blog_post, .postss,.potss__, .blog_row, .posts_grid,
-.blog_column, .blog_head, .desc, .blog_time, .post_time{
+.blog_column, .desc, .post_time{
     width: 100%;
     height: 100%;
 }
@@ -128,6 +128,7 @@ a{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    transition: all .3s ease;
 }
 
 .colunm .column_image{

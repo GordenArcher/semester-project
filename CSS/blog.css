@@ -63,7 +63,7 @@
     grid-template-columns: repeat(4, 1fr);
 }
 
-.hide{
+.releaddd{
     display: none;
 }
 
@@ -170,6 +170,13 @@
 .scribe button:hover{
     background: transparent;
     color: hsl(240, 100%, 50%);
+}
+
+.blog_column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    transition: all .3s ease;
 }
 
 @media screen and (max-width:992px) {

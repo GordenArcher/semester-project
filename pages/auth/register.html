@@ -2,11 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="shortcut icon" href="/images/gor.svg" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="/CSS/index.css">
     <link rel="stylesheet" href="/CSS/register.css">
-    <title>G-KANAD || register</title>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <title>Register || G-KANAD</title>
 </head>
 <body>
 
@@ -92,11 +94,20 @@
 
                                                 <div class="_register">
                                                     <div class="submit">
-                                                        <div class="input_field">
+                                                        <div class="input_field submit_butt">
                                                             <input type="submit" id="submit" value="Register" role="button">
+                                                        </div>
+
+                                                        <div class="loader">
+                                                            <div class="spinner"></div>
                                                         </div>
                                                     </div>
                                                 </div>
+
+                                                <form action="?" method="POST">
+                                                    <div class="g-recaptcha" data-sitekey="6LdadjAqAAAAALntK1FxlNpOQzfuFl_zZFQIwjic"></div>
+                                                    <br/>
+                                                  </form>
                                             </div>
                                         </div>
                                     </form>

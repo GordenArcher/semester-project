@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/CSS/index.css">
     <link rel="stylesheet" href="/CSS/style.css">
     <link rel="stylesheet" href="/CSS/about.css">
+    <script src="https://www.google.com/recaptcha/api.js"></script>
     <title>G-KANAD || SEMESTER ASSIGNMENT</title>
 </head>
 <body>
@@ -933,6 +934,11 @@
                 </div>
             </section>
 
+            <form action="?" method="POST">
+                <div class="g-recaptcha" data-sitekey="6LdadjAqAAAAALntK1FxlNpOQzfuFl_zZFQIwjic"></div>
+                <br/>
+            </form>
+
             <div class="footer">
                 <footer>
                     <div class="footer_container">
@@ -1024,14 +1030,19 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="footer_bottom"></div>
+                        <div class="footer_bottom">
+                            <h2 id="view-count">Page Views: 0</h2>
+                        </div>
                     </div>
                 </footer>
             </div>
 
         </div>
     </div>
+    
 
     <script src="/JS/index.js"></script>
+    <script src="/JS/viewCount.js"></script>
+    <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
 </body>
 </html>

@@ -68,3 +68,16 @@ password2.addEventListener('input', () => {
         password2.classList.remove('active')
     }
 })
+
+const loader = document.querySelector('.loader')
+const submit = document.getElementById('submit')
+
+document.addEventListener('submit', () => {
+    submit.value = ''
+    setTimeout(() => {
+        loader.style.dispay = 'block'
+        window.location.href = '/'
+    }, 2000)
+    
+})
+
