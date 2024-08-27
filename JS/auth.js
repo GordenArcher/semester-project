@@ -72,11 +72,12 @@ password2.addEventListener('input', () => {
 const loader = document.querySelector('.loader')
 const submit = document.getElementById('submit')
 
-document.addEventListener('submit', () => {
+document.addEventListener('submit', (e) => {
+    e.preventDefault()
     submit.value = ''
     setTimeout(() => {
         loader.style.dispay = 'block'
-        window.location.href = '/'
+        window.location.assign('/')
     }, 2000)
     
 })
