@@ -14,6 +14,16 @@
 .header{
     width: 100%;
     z-index: 99;
+    transition: background-color 0.4s ease;
+    position: relative;
+}
+
+.scrolled{
+    background: hsl(240, 100%, 50%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .home__ img{
@@ -22,18 +32,12 @@
     object-fit: cover;
 }
 
-.header{
-    position: absolute;
-    top: 0;
-}
-
 .header nav .nav_bar{
     display: flex;
     padding: 20px;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
-    /* background: #00000084; */
 }
 
 .header .nav_logo, .header .links{
@@ -291,12 +295,13 @@
     flex-direction: column;
     gap: 20px;
     align-items: center;
+    justify-content: center;
     transition: all .3s ease;
-}
-
-.social_link{
-    width: 100%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
     border: 1px solid hsla(0, 0%, 100%);
+    position: relative;
 }
 
 .social_link:hover{
@@ -306,9 +311,6 @@
 .social_link a{
     text-decoration: none;
     padding: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
 }
 
 
@@ -323,12 +325,25 @@
 }
 
 .icon{
-
     position: relative;
 }
 
 .media_name{
+    width: 100px;
+    text-align: center;
     color: #cccc;
+    position: absolute;
+    top: -35px;
+    padding: 6px;
+    background: hsl(0, 0%, 100%);
+    border-radius: 2px;
+    color: hsl(240, 100%, 50%);
+    opacity: 0;
+    transition: all .3s ease;
+}
+
+.social_link:hover .media_name{
+    opacity: 1;
 }
 
 .icon .bi{

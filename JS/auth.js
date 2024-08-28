@@ -12,6 +12,7 @@ const emailLable = document.querySelector('.email label')
 const phoneLable = document.querySelector('.phone label')
 const passwordLable = document.querySelector('.password label')
 const password2Lable = document.querySelector('.password2 label')
+const error = document.querySelector('.error span')
 
 firstname.addEventListener('input', () => {
     if(firstname.value.length > 0){
@@ -20,6 +21,7 @@ firstname.addEventListener('input', () => {
         firstnameLable.classList.remove('active')
     }
 })
+
 
 lastname.addEventListener('input', () => {
     if(lastname.value.length > 0){
@@ -73,12 +75,45 @@ const loader = document.querySelector('.loader')
 const submit = document.getElementById('submit')
 
 document.addEventListener('submit', (e) => {
-    e.preventDefault()
-    submit.value = ''
-    setTimeout(() => {
-        loader.style.dispay = 'block'
-        window.location.assign('/')
-    }, 2000)
-    
-})
+    e.preventDefault();
 
+    error.textContent = '';
+
+    if (firstname.value.length <= 0) {
+        return error.textContent = 'First name is required.';
+    }
+
+    if (lastname.value.length <= 0) {
+        return error.textContent = 'Last name is required.';
+    }
+
+    if (user_name.value.length <= 0) {
+        return error.textContent = 'Username is required.';
+    }
+
+    if (!validateEmail(email.value)) {
+        return error.textContent = 'Please enter a valid email address.';
+    }
+
+    if (password.value.length <= 0) {
+        return error.textContent = 'Password is required.';
+    }
+
+    if (password.value !== password2.value) {
+        return error.textContent = 'Password do not match.';
+        
+    }
+
+
+    submit.value = '';
+    loader.style.display = 'flex';
+    setTimeout(() => {
+        error.style.display = 'none'
+        window.location.assign('/');
+    }, 3000);
+});
+
+function validateEmail(email) {
+    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return re.test(email);
+}

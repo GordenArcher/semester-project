@@ -34,13 +34,20 @@
                             <div class="main_form_box">
                                 <div class="__fill__">
 
+                                    <div class="error">
+                                        <span></span>
+                                    </div>
+
                                     <form action="#!">
+
                                         <div class="register_form">
                                             <div class="register_inputs">
+
                                                 <div class="fullname inputs input_grid">
+
                                                     <div class="firstnom">
                                                         <div class="input_field firstname">
-                                                            <input type="text" id="firstname" autofocus autocapitalize="" required role="textbox">
+                                                            <input type="text" id="firstname" autofocus autocapitalize required role="textbox">
                                                             <label for="firstname">First Name</label>
                                                         </div>
                                                     </div>
@@ -59,7 +66,8 @@
                                                             <input type="text" id="username" autocapitalize required role="textbox">
                                                             <label for="username">Username</label>
                                                         </div>
-                                                    </div>
+
+                                                    </div>    
                                                 </div>
 
                                                 <div class="inputs input_grid">
@@ -69,6 +77,8 @@
                                                             <label for="email">Email</label>
                                                         </div>
                                                     </div>
+
+
                                                     <div class="phone__">
                                                         <div class="input_field phone">
                                                             <input type="tel" id="phone" required role="text">
@@ -83,12 +93,15 @@
                                                             <input type="password" id="password" required role="textbox">
                                                             <label for="password">Password</label>
                                                         </div>
+                                                        
                                                     </div>
+
                                                     <div class="_password2_">
                                                         <div class="input_field password2">
                                                             <input type="password" id="password2" required role="textbox">
                                                             <label for="password2">Confirm Password</label>
                                                         </div>
+                                                        
                                                     </div>
                                                 </div>
 
@@ -104,14 +117,15 @@
                                                     </div>
                                                 </div>
 
-                                                <form action="?" method="POST">
-                                                    <div class="g-recaptcha" data-sitekey="6LdadjAqAAAAALntK1FxlNpOQzfuFl_zZFQIwjic"></div>
-                                                    <br/>
-                                                  </form>
+
                                             </div>
                                         </div>
                                     </form>
 
+                                    <form action="?" method="POST" class="recap">
+                                        <div class="g-recaptcha" data-sitekey="6LdadjAqAAAAALntK1FxlNpOQzfuFl_zZFQIwjic"></div>
+                                        <br/>
+                                    </form>
                                 </div>
                             </div>
                         </div>

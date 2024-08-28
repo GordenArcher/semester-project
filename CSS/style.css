@@ -420,7 +420,7 @@ a{
     opacity: 1;
 }
 
-.roww, .coach_row, .social_link{
+.roww, .coach_row{
     border: 1px solid hsla(240, 100%, 50%, 0.114);
     border-radius: 7px;
     padding: 10px;
@@ -459,11 +459,6 @@ a{
 
 .roww .roww_desc{
     font-size: 1rem;
-}
-
-.social_link{
-    width: 100%;
-    border: 1px solid hsla(0, 0%, 100%);
 }
 
 .blog_image .image{

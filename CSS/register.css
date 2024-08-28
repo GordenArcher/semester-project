@@ -130,12 +130,22 @@
 .loader{
     position: absolute;
     top: 0;
-    display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: 100%;
     display: none;
+}
+
+.error{
+    position: relative;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.error span{
+    color: red;
+    font-weight: 600;
 }
 
 .loader .spinner{
@@ -154,6 +164,10 @@
     to{
         transform: rotate(360deg);
     }
+}
+
+.recap{
+    margin-top: 30px;
 }
 
 @media screen and (max-width:992px) {
