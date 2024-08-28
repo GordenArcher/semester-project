@@ -173,27 +173,6 @@
     color: #ccc;
 }
 
-/* .register{
-    width: 100%;
-    margin-top: 80px;
-}
-
-.register button{
-    width: 200px;
-    height: 55px;
-    background: blue;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: all .5s ease;
-    color: #fff;
-    font-size: 1.2rem;
-}
-
-.register button:hover{
-    transform: translateY(-6px);
-} */
-
 .sports_played{
     margin-top: 60px;
 }
@@ -308,6 +287,27 @@
 .social_link:hover{
     transform: translateY(-6px);
 }
+
+.x:hover, .git:hover{
+    background: hsl(0, 0%, 0%);
+    border: 1px solid hsl(0, 0%, 0%);
+}
+
+.in:hover{
+    background: hsl(335, 100%, 50%);
+    border: 1px solid hsl(335, 100%, 50%);
+}
+
+.wat:hover{
+    background: hsl(120, 100%, 25%);
+    border: 1px solid hsl(120, 100%, 25%);
+}
+
+.lin:hover, .tele:hover{
+    background: hsl(210, 90%, 40%);
+    border: 1px solid hsl(210, 90%, 40%);
+}
+
 
 .social_link a{
     text-decoration: none;
