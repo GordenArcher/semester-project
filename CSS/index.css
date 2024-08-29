@@ -405,3 +405,7 @@
 ::-webkit-scrollbar{
     display: none;
 }
+
+.twitter_feed{
+    padding: 20px;
+}
